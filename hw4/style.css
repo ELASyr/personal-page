@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://i.imgur.com/WdLj6W9.png");
+  opacity: .5;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  background-color: lightblue;
+  font-size: 10rem;
+  color: blue;
+  border: 2px dashed blue;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 350px;
+}
