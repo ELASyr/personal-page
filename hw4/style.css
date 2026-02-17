@@ -5,14 +5,15 @@
 
 body {
   background: url("https://cdn.imgchest.com/files/j7mmcr5k976.png");
-  opacity: .5;
   background-repeat: no-repeat;
   background-size: 1400px auto;
   background-position: top left;
+  opacity: 0.5;
 }
 
 .container {
   max-width: 1400px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -22,17 +23,16 @@ body {
   font-size: 10rem;
   color: blue;
   border: 2px dashed blue;
+  flex-grow: 1;
   flex-shrink: 1;
+  min-width: 0;
 }
 
-/* Row 1: 1 | 2 | 3  (1:2:1 ratio) */
-.box1 { flex-grow: 1; flex-basis: 350px; }
-.box2 { flex-grow: 2; flex-basis: 700px; }
-.box3 { flex-grow: 1; flex-basis: 350px; }
+.box1 { flex-basis: 300px; }
+.box2 { flex-basis: 550px; }
+.box3 { flex-basis: 550px; }
 
-/* Row 2: 4 full width */
-.box4 { flex-grow: 1; flex-basis: 1400px; }
+.box4 { flex-basis: 1400px; }
 
-/* Row 3: 5 | 6 (3:1 ratio) */
-.box5 { flex-grow: 3; flex-basis: 1050px; }
-.box6 { flex-grow: 1; flex-basis: 350px; }
+.box5 { flex-basis: 1000px; }
+.box6 { flex-basis: 400px; }
