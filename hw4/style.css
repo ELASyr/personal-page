@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url("https://i.imgur.com/WdLj6W9.png");
+  background: url("https://cdn.imgchest.com/files/j7mmcr5k976.png");
   opacity: .5;
   background-repeat: no-repeat;
 }
@@ -23,5 +23,5 @@ body {
 
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 350px;
+  flex-basis: 466.6667px;
 }
