@@ -7,6 +7,8 @@ body {
   background: url("https://cdn.imgchest.com/files/j7mmcr5k976.png");
   opacity: .5;
   background-repeat: no-repeat;
+  background-size: 1400px auto;
+  background-position: top left;
 }
 
 .container {
@@ -23,5 +25,5 @@ body {
 
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 466.6667px;
+  flex-basis: 468px;
 }
