@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AUCA Women: The official community platform for female students, alumni, and staff at the American University of Central Asia.">
+    <title>AUCA Women Community</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#">AUCA <span>Women</span></a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#about" class="active">Our Mission</a>
+                <a href="#community">Community</a>
+                <a href="#events">Events</a>
+            </nav>
+
+            <div class="auth-buttons">
+                <!-- Login/Register Placeholders -->
+                <button class="btn btn-outline" id="loginBtn" aria-label="Log In">Sign In</button>
+                <button class="btn btn-primary" id="registerBtn" aria-label="Register Account">Join Us</button>
+            </div>
+            
+            <!-- Mobile Menu Toggle (JavaScript logic omitted for pure CSS/HTML task, but placeholder exists) -->
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Welcome to the future</span>
+                    <h1>Empowering the Women of <span class="highlight">AUCA</span></h1>
+                    <p>Connect, collaborate, and grow within a vibrant ecosystem designed exclusively for the female students, alumni, and staff of the American University of Central Asia.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-large">Get Involved Today</button>
+                        <a href="#community" class="link-secondary">Explore Stories &rarr;</a>
+                    </div>
+                </div>
+                <!-- Interactive 3D/Glassmorphic Card Placeholder -->
+                <div class="hero-visual">
+                    <div class="glass-card stat-card">
+                        <h3>1,200+</h3>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="glass-card portrait-card">
+                        <!-- Placeholder for a user image -->
+                        <div class="image-placeholder gradient-fill"></div>
+                        <div class="card-info">
+                            <h4>Mentorship Program</h4>
+                            <p>Now accepting applications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Generated Content (Stories/Feed Placeholder) -->
+        <section class="community-feed section-padding" id="community">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Voices of Our Community</h2>
+                    <p>Discover projects, stories, and achievements shared by AUCA women.</p>
+                </div>
+                
+                <div class="feed-grid">
+                    <!-- UGC Post Placeholder 1 -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="avatar bg-purple">AM</div>
+                            <div class="author-info">
+                                <strong>Aizada M.</strong>
+                                <span>Software Engineering '25</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Just launched my first full-stack application! Huge thanks to the AUCA Women Tech Circle for the guidance and coding late-night sessions. 🚀👩‍💻</p>
+                        </div>
+                        <div class="post-footer">
+                            <button class="action-btn">❤️ 124</button>
+                            <button class="action-btn">💬 18</button>
+                        </div>
+                    </article>
+
+                    <!-- UGC Post Placeholder 2 -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="avatar bg-pink">BK</div>
+                            <div class="author-info">
+                                <strong>Bermet K.</strong>
+                                <span>Business Admin '24</span>
+                            </div>
+                        </div>
+                        <div class="post-image-placeholder placeholder-img-1"></div>
+                        <div class="post-content">
+                            <p>Incredible turnout at the Women in Leadership panel today. Feeling so inspired by our alumni speakers!</p>
+                        </div>
+                        <div class="post-footer">
+                            <button class="action-btn">❤️ 89</button>
+                            <button class="action-btn">💬 5</button>
+                        </div>
+                    </article>
+
+                    <!-- UGC Post Placeholder 3 -->
+                    <article class="post-card">
+                        <div class="post-header">
+                            <div class="avatar bg-blue">SZ</div>
+                            <div class="author-info">
+                                <strong>Sofia Z.</strong>
+                                <span>Liberal Arts '26</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Does anyone have recommendations for resources on negotiating salaries as a new grad? Looking to put together a workshop.</p>
+                        </div>
+                        <div class="post-footer">
+                            <button class="action-btn">❤️ 45</button>
+                            <button class="action-btn">💬 32</button>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="center-cta">
+                    <button class="btn btn-outline">Load More Stories</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3rd Party API Integration Placeholder (Events/Widget) -->
+        <section class="api-integration section-padding bg-light" id="events">
+            <div class="container">
+                <div class="section-layout">
+                    <div class="api-info">
+                        <h2>Upcoming Events</h2>
+                        <p>Sync your calendar with workshops, meetups, and guest lectures happening on campus and online.</p>
+                        <p class="api-note"><em>*This section is configured to integrate with an Eventbrite or Google Calendar API endpoint.</em></p>
+                        <button class="btn btn-primary">Sync Calendar</button>
+                    </div>
+                    
+                    <div class="api-widget-container">
+                        <!-- Widget UI Skeleton Loading State -->
+                        <div class="widget-skeleton">
+                            <div class="skeleton-header">
+                                <div class="sk-title"></div>
+                                <div class="sk-date"></div>
+                            </div>
+                            <div class="skeleton-list">
+                                <div class="sk-item">
+                                    <div class="sk-box"></div>
+                                    <div class="sk-lines">
+                                        <div class="sk-line w-80"></div>
+                                        <div class="sk-line w-40"></div>
+                                    </div>
+                                </div>
+                                <div class="sk-item">
+                                    <div class="sk-box"></div>
+                                    <div class="sk-lines">
+                                        <div class="sk-line w-70"></div>
+                                        <div class="sk-line w-50"></div>
+                                    </div>
+                                </div>
+                                <div class="sk-item">
+                                    <div class="sk-box"></div>
+                                    <div class="sk-lines">
+                                        <div class="sk-line w-90"></div>
+                                        <div class="sk-line w-30"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Auth Modals Placeholder Container -->
+        <div id="authModalPlaceholder" class="modal-overlay hidden">
+            <!-- Modal logic to be implemented here -->
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">AUCA <span>Women</span></a>
+                <p>Building a stronger, more connected female community at the American University of Central Asia.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#events">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Code of Conduct</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AUCA Women Community. All rights reserved.</p>
+            <p class="disclaimer">Not officially affiliated with the campus administration.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
