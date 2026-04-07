@@ -53,18 +53,18 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  background-color: #0e577750; /* 👈 50 = transparent so target shows through for matching */
+  background-color: #0e577750; 
   max-width: 100%;
   min-height: 100%;
   align-items: center;
 }
 
 .box2 ul li {
-  color: red; /* 👈 TEMPORARY - change to #ffffff when done matching */
+  color: red;
   white-space: nowrap;
 }
 
-/* 👇 Adjust each flex-basis with DevTools arrow keys until red text matches target */
+
 .vlast { flex-basis: 87px; padding-left: 20px; }
 .obsh  { flex-basis: 93px; }
 .ekon  { flex-basis: 99px; }
