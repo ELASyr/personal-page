@@ -66,13 +66,13 @@ body {
 
 
 .vlast { flex-basis: 87px; padding-left: 20px; }
-.obsh  { flex-basis: 93px; }
+.obsh  { flex-basis: 92px; }
 .ekon  { flex-basis: 99px; }
-.prois { flex-basis: 122px; }
+.prois { flex-basis: 123px; }
 .agent { flex-basis: 92px; }
 .sport { flex-basis: 62px; }
-.tech  { flex-basis: 94px; }
-.spec  { flex-basis: 115px; }
+.tech  { flex-basis: 93px; }
+.spec  { flex-basis: 116px; }
 .kyrg  { flex-basis: 90px; }
 .eng   { flex-basis: 71px; }
 .biz   { flex-basis: 20px; }
