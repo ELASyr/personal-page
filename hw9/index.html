@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 8</title>
+    <title>Assignment 9</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
+
+    <button class="hamburger-btn"><i class="fa fa-bars"></i></button>
+
     <img 
       src='https://cdn.imgchest.com/files/d7ogckzgey9.png' 
       style='position: absolute; top:2px; left:-70px; z-index:-1'>
@@ -39,5 +43,14 @@
       <div class="box8">8</div>
       <div class="box9">9</div>
     </div>
+
+    <script>
+      const btn = document.querySelector('.hamburger-btn');
+      const menu = document.querySelector('.box2');
+      btn.addEventListener('click', function() {
+        menu.classList.toggle('mobileMenu');
+      });
+    </script>
+
   </body>
-</html>  
+</html>
