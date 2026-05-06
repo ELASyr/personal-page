@@ -6,16 +6,19 @@
 }
 
 body {
-  width: 1146px;
+  max-width: 1146px;          /* CHANGE 2: was width: 1146px */
   min-height: 1583px;
   position: relative;
+  background-image: url('https://cdn.imgchest.com/files/d7ogckzgey9.png');  /* CHANGE 1: red grid on body */
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 .container {
   display: grid;
-  width: 1143px;
+  max-width: 1143px;          /* CHANGE 2: was width: 1143px */
   grid-template-rows: minmax(115px, auto) minmax(35px, auto) minmax(135px, auto) minmax(104px, auto) minmax(235px, auto) minmax(210px, auto) minmax(290px, auto) minmax(170px, auto) minmax(289px, auto) minmax(50px, auto);
-  grid-template-columns: minmax(290px, 1fr) minmax(282px, 1fr) minmax(305px, 1fr) minmax(267px, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);  /* CHANGE 2: was minmax(290px,1fr) etc */
   grid-template-areas:
     "one one one one"
     "two two two two"
